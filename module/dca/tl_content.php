@@ -44,6 +44,7 @@ $GLOBALS['TL_DCA']['tl_content']['fields']['bootstrap_indicatorsListType'] = arr
     'label'     => &$GLOBALS['TL_LANG']['tl_content']['bootstrap_indicatorsListType'],
     'exclude'   => true,
     'inputType' => 'select',
+    'options'   => array('ol', 'ul'),
     'eval'      => array('tl_class' => 'w50'),
     'sql'       => "char(2) NOT NULL default 'ol'"
 );
