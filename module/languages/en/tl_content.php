@@ -3,6 +3,9 @@
 $GLOBALS['TL_LANG']['tl_content']['bootstrap_showIndicators'][0] = 'Show indicators';
 $GLOBALS['TL_LANG']['tl_content']['bootstrap_showIndicators'][1] = 'Indicators of the current slider element will be displayed';
 
+$GLOBALS['TL_LANG']['tl_content']['bootstrap_showIndicators'][0] = 'Indicators list-type';
+$GLOBALS['TL_LANG']['tl_content']['bootstrap_showIndicators'][1] = 'Show the list of indicators as UL or OL';
+
 $GLOBALS['TL_LANG']['tl_content']['bootstrap_showControls'][0] = 'Show controls';
 $GLOBALS['TL_LANG']['tl_content']['bootstrap_showControls'][1] = 'Left/right buttons are displayed.';
 
