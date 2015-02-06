@@ -3,6 +3,7 @@
 /**
  * @package    contao-bootstrap
  * @author     David Molineus <david.molineus@netzmacht.de>
+ * @author     Christopher Boelter <christopher@boelter.eu>
  * @copyright  2014-2015 netzmacht creative David Molineus
  * @license    LGPL 3.0
  * @filesource
