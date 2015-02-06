@@ -70,6 +70,7 @@ class CarouselElement extends Wrapper
 
             $this->Template->attributes = $attributes;
             $this->Template->count      = $this->wrapper->countRelatedElements();
+            $this->Template->listType   = $this->bootstrap_indicatorsListType;
         } else {
             $start = \ContentModel::findByPk($this->bootstrap_parentId);
 

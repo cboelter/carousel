@@ -20,6 +20,7 @@ $GLOBALS['TL_DCA']['tl_content']['metapalettes']['bootstrap_carouselStart extend
 (
     'config'    => array(
         'bootstrap_showIndicators',
+        'bootstrap_indicatorsListType',
         'bootstrap_showControls',
         'bootstrap_autostart',
         'bootstrap_interval',
@@ -35,6 +36,15 @@ $GLOBALS['TL_DCA']['tl_content']['fields']['bootstrap_showIndicators'] = array
     'inputType' => 'checkbox',
     'eval'      => array('tl_class' => 'm12 w50'),
     'sql'       => "char(1) NOT NULL default ''"
+);
+
+$GLOBALS['TL_DCA']['tl_content']['fields']['bootstrap_indicatorsListType'] = array
+(
+    'label'     => &$GLOBALS['TL_LANG']['tl_content']['bootstrap_indicatorsListType'],
+    'exclude'   => true,
+    'inputType' => 'select',
+    'eval'      => array('tl_class' => 'w50'),
+    'sql'       => "char(2) NOT NULL default 'ol'"
 );
 
 $GLOBALS['TL_DCA']['tl_content']['fields']['bootstrap_showControls'] = array

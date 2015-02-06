@@ -6,7 +6,7 @@
 		$attributes->setAttribute('data-target', '#' . $this->attributes->getId());
 		$attributes->addClass('active');
 		?>
-		<ol class="carousel-indicators">
+		<<?php echo $this->listType; ?> class="carousel-indicators">
 			<?php for($i=0; $i < $this->count; $i++): ?>
 				<?php
 				    $attributes->setAttribute('data-slide-to', $i);
@@ -14,7 +14,7 @@
 				?>
 				<li <?php echo $attributes; ?>></li>
 			<?php endfor; ?>
-		</ol>
+		</<?php echo $this->listType; ?>>
 	<?php endif; ?>
 
 	<div class="carousel-inner">
